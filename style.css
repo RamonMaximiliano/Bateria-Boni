@@ -1,0 +1,33 @@
+body {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: rgba(108, 248, 120, 0.747);
+}
+
+
+.Main-Square{
+    background-color: white;
+    width: 500px;
+    margin:auto;
+}
+
+.title{
+    text-align: center;
+}
+
+
+.letter{
+    box-sizing: border-box;
+    margin:10px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    width:100px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    border: 5px solid black;
+}
+
+

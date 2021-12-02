@@ -5,29 +5,42 @@ body {
     background-color: rgba(108, 248, 120, 0.747);
 }
 
-
 .Main-Square{
-    background-color: white;
-    width: 500px;
+    width: 400px;
     margin:auto;
 }
 
 .title{
     text-align: center;
+    margin-top:100px;
+    font-size: 50px;;
 }
 
+.footer{    
+    text-align: center;
+    margin-top:100px;
+    font-size: 15px;
+}
 
 .letter{
+    background-color: white;
     box-sizing: border-box;
     margin:10px;
     text-align: center;
     align-items: center;
-    padding-top: 10px;
-    width:100px;
-    height: 100px;
-    font-size: 50px;
+    padding-top: 20px;
+    width:120px;
+    height: 120px;
+    font-size: 60px;
     font-weight: bold;
     border: 5px solid black;
 }
 
+.letter:hover{
+    background-color: rgb(241, 253, 128);
+}
 
+.line1, .line2, .line3 {
+    justify-content:space-between; 
+    display:flex;
+}

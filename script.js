@@ -1,4 +1,7 @@
 function styleW() {
+    //método .play() é um método de audio tag element principalmente parece
+    document.querySelector("audio.keyW").play()
+
 
     document.getElementById("W").classList.remove("letter")
     document.getElementById("W").classList.add("buttonHover")
@@ -9,6 +12,8 @@ function styleW() {
     }
 }
 function styleQ() {
+    document.querySelector("audio.keyQ").play()
+
 
     document.getElementById("Q").classList.remove("letter")
     document.getElementById("Q").classList.add("buttonHover")
@@ -20,6 +25,8 @@ function styleQ() {
 }
 function styleE() {
 
+    document.querySelector("audio.keyE").play()
+
     document.getElementById("E").classList.remove("letter")
     document.getElementById("E").classList.add("buttonHover")
     setTimeout(backNormal, 100);
@@ -30,6 +37,8 @@ function styleE() {
 }
 function styleA() {
 
+    document.querySelector("audio.keyA").play()
+
     document.getElementById("A").classList.remove("letter")
     document.getElementById("A").classList.add("buttonHover")
     setTimeout(backNormal, 100);
@@ -39,6 +48,8 @@ function styleA() {
     }
 }
 function styleS() {
+    document.querySelector("audio.keyS").play()
+
 
     document.getElementById("S").classList.remove("letter")
     document.getElementById("S").classList.add("buttonHover")
@@ -49,6 +60,8 @@ function styleS() {
     }
 }
 function styleD() {
+    document.querySelector("audio.keyD").play()
+
 
     document.getElementById("D").classList.remove("letter")
     document.getElementById("D").classList.add("buttonHover")
@@ -59,6 +72,8 @@ function styleD() {
     }
 }
 function styleZ() {
+    document.querySelector("audio.keyZ").play()
+
 
     document.getElementById("Z").classList.remove("letter")
     document.getElementById("Z").classList.add("buttonHover")
@@ -70,6 +85,8 @@ function styleZ() {
 }
 function styleX() {
 
+    document.querySelector("audio.keyX").play()
+
     document.getElementById("X").classList.remove("letter")
     document.getElementById("X").classList.add("buttonHover")
     setTimeout(backNormal, 100);
@@ -79,6 +96,8 @@ function styleX() {
     }
 }
 function styleC() {
+    document.querySelector("audio.keyC").play()
+
 
     document.getElementById("C").classList.remove("letter")
     document.getElementById("C").classList.add("buttonHover")
@@ -90,3 +109,14 @@ function styleC() {
 }
 
 
+function tocar(){
+
+    document.getElementById("tocar").classList.remove("mainButtom")
+    document.getElementById("tocar").classList.add("mainButtomPressed")
+    setTimeout(backNormal, 100);
+    function backNormal(){
+        document.getElementById("tocar").classList.remove("mainButtomPressed")
+        document.getElementById("tocar").classList.add("mainButtom")
+    }
+
+}

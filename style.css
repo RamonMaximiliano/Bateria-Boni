@@ -36,6 +36,22 @@ body {
     border: 5px solid black;
 }
 
+.buttonHover{
+    background-color: rgb(240, 93, 93);
+    box-sizing: border-box;
+    margin:10px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    width:120px;
+    height: 120px;
+    font-size: 60px;
+    font-weight: bold;
+    border: 5px solid black;
+}
+
+
+
 .letter:hover{
     background-color: rgb(241, 253, 128);
 }

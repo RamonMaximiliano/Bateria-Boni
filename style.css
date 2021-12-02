@@ -37,6 +37,8 @@ body {
 }
 
 .buttonHover{
+    /*The scale below was copied from JavaScript 30 days project */
+    transform: scale(1.1);
     background-color: rgb(240, 93, 93);
     box-sizing: border-box;
     margin:10px;

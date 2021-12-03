@@ -111,6 +111,50 @@ function styleC() {
 
 function tocar(){
 
+    let music = document.getElementById("music").value
+    console.log(music)
+    console.log(typeof music)
+  
+
+    //Usando o spread operator para transformar de string para Array
+    let musicArray = [...music]
+    console.log(musicArray)
+    setTimeout(playing1, 100)
+    function playing1(){
+        let firstNote = musicArray[0].toUpperCase()
+        document.querySelector("audio.key"+[firstNote]).play()
+    }
+    setTimeout(playing2, 500)
+    function playing2(){
+        let firstNote = musicArray[1].toUpperCase()
+        document.querySelector("audio.key"+[firstNote]).play()
+    }
+    setTimeout(playing3, 1000)
+    function playing3(){
+        let firstNote = musicArray[2].toUpperCase()
+        document.querySelector("audio.key"+[firstNote]).play()
+    }
+    setTimeout(playing4, 1500)
+    function playing4(){
+        let firstNote = musicArray[3].toUpperCase()
+        document.querySelector("audio.key"+[firstNote]).play()
+    }
+    setTimeout(playing5, 2000)
+    function playing5(){
+        let firstNote = musicArray[4].toUpperCase()
+        document.querySelector("audio.key"+[firstNote]).play()
+    }
+    setTimeout(playing6, 2500)
+    function playing6(){
+        let firstNote = musicArray[5].toUpperCase()
+        document.querySelector("audio.key"+[firstNote]).play()
+    }
+    setTimeout(playing7, 3000)
+    function playing7(){
+        let firstNote = musicArray[6].toUpperCase()
+        document.querySelector("audio.key"+[firstNote]).play()
+    }
+
     document.getElementById("tocar").classList.remove("mainButtom")
     document.getElementById("tocar").classList.add("mainButtomPressed")
     setTimeout(backNormal, 100);
@@ -120,3 +164,5 @@ function tocar(){
     }
 
 }
+
+

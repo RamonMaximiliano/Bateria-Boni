@@ -19,7 +19,7 @@ body {
 .footer{    
     text-align: center;
     margin-top:50px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .letter{
@@ -52,8 +52,6 @@ body {
     border: 5px solid black;
 }
 
-
-
 .letter:hover{
     background-color: rgb(241, 253, 128);
 }
@@ -71,7 +69,7 @@ body {
 }
 
 .provideCode, .mainButtom {
-    margin-top:10px;
+    margin-top:20px;
     width:inherit;
     height: 50px;
     box-sizing: border-box;
@@ -83,7 +81,7 @@ body {
 .mainButtomPressed {
     transform: scale(1.1); 
     background-color: rgb(240, 93, 93);
-    margin-top:10px;
+    margin-top:20px;
     width:inherit;
     height: 50px;
     box-sizing: border-box;
@@ -99,4 +97,11 @@ body {
 .mainButtom:hover{
     background-color: rgb(241, 253, 128);
 }
+
+.rodape{
+    text-align: center;
+    font-size:15px;
+    font-weight: bold;
+}
+
 

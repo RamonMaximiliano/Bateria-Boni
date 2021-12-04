@@ -1,6 +1,10 @@
 function styleW() {
+    let letterW = document.querySelector("audio.keyW")
+    //O current time abaixo zera o tempo para que se toque repetidas vezes a tecla sem esperar acabar o audio
+    letterW.currentTime = 0;
+    letterW.play()
     //método .play() é um método de audio tag element principalmente parece
-    document.querySelector("audio.keyW").play()
+    //document.querySelector("audio.keyW").play()
 
     document.getElementById("W").classList.remove("letter")
     document.getElementById("W").classList.add("buttonHover")

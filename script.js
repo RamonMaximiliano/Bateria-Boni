@@ -2,7 +2,6 @@ function styleW() {
     //método .play() é um método de audio tag element principalmente parece
     document.querySelector("audio.keyW").play()
 
-
     document.getElementById("W").classList.remove("letter")
     document.getElementById("W").classList.add("buttonHover")
     setTimeout(backNormal, 100);
@@ -162,7 +161,42 @@ function tocar(){
         document.getElementById("tocar").classList.remove("mainButtomPressed")
         document.getElementById("tocar").classList.add("mainButtom")
     }
-
 }
 
 
+
+window.addEventListener("keydown", playTheKey);
+
+function playTheKey(key){
+      console.log(key.keyCode)
+      let letterCode = 'p'
+      
+      if(key.keyCode == 87){
+        letterCode = 'W'
+        document.querySelector("audio.key"+[letterCode]).play()
+      } else if (key.keyCode == 65){
+        letterCode = 'A'
+        document.querySelector("audio.key"+[letterCode]).play()
+      } else if (key.keyCode == 90){
+        letterCode = 'Z'
+        document.querySelector("audio.key"+[letterCode]).play()
+      } else if (key.keyCode == 81){
+        letterCode = 'Q'
+        document.querySelector("audio.key"+[letterCode]).play()
+      } else if (key.keyCode == 67){
+        letterCode = 'C'
+        document.querySelector("audio.key"+[letterCode]).play()
+      } else if (key.keyCode == 69){
+        letterCode = 'E'
+        document.querySelector("audio.key"+[letterCode]).play()
+      } else if (key.keyCode == 83){
+        letterCode = 'S'
+        document.querySelector("audio.key"+[letterCode]).play()
+      } else if (key.keyCode == 68){
+        letterCode = 'D'
+        document.querySelector("audio.key"+[letterCode]).play()
+      } else if (key.keyCode == 88){
+        letterCode = 'X'
+        document.querySelector("audio.key"+[letterCode]).play()
+      } 
+}
